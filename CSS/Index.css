@@ -1,0 +1,89 @@
+header{
+    background-color: #37392e;
+    margin: 0%;
+    padding: -1%;
+    margin-top: -1%;
+    margin-left: -1%;
+}
+
+header h1{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+nav{
+    font-family: 'Roboto Black', sans-serif;
+}
+
+body{
+    background-color: #19647E;
+}
+
+a{
+    color: #f6f1d1;  
+    text-decoration: none;
+}
+
+.header-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background: #eee;
+    z-index: 9999;
+    transition: All 0.3s ease;
+    -webkit-transition: All 0.3s ease;
+    -moz-transition: All 0.3s ease;
+    -o-transition: All 0.3s ease;
+}
+    
+.header-fixed h1 a{
+    display: block;
+    text-align: center;
+}
+    
+.header-relative{
+    height: 150px;
+}
+    
+.header-fixed.resized{
+    top: -75px;
+}
+    
+.header-fixed.resized img{
+    padding-top: 60px;
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+}
+
+footer{
+    height: 65px;
+    width: 99%;
+    background-color: #37392e;
+    position: absolute;
+    bottom: 0;
+}
+
+footer h3{
+    margin: 0;
+    padding: 0;
+}
+
+    section{
+    height: auto;
+    width: 100%;
+    background-color: #28afb0;
+    margin-top: 2%;
+}
+
+section h1{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+section h4{
+    font-family: 'Roboto Black', sans-serif;
+    color: #f6f1d1;
+}
