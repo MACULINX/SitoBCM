@@ -16,6 +16,7 @@ nav{
 
 body{
     background-color: #19647E;
+    margin: 0%;
 }
 
 a{
@@ -61,14 +62,14 @@ a{
 
 footer{
     height: 65px;
-    width: 99%;
+    width: 100%;
     background-color: #37392e;
     position: absolute;
     bottom: 0;
 }
 
 footer h3{
-    margin: 0;
+    margin: 0%;
     padding: 0;
 }
 
