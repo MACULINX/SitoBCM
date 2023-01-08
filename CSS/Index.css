@@ -73,6 +73,13 @@ a{
     -ms-transform: scale(0.8);
 }
 
+article{
+    background-color: #28afb0;
+    margin-top: 30%;
+    height: auto;
+    width: 100%;
+}
+
 footer{
     height: 100px;
     width: 100%;
@@ -90,7 +97,6 @@ section{
     height: auto;
     width: 100%;
     background-color: #28afb0;
-    margin-top: 2%;
 }
 
 section h1{
@@ -100,6 +106,10 @@ section h1{
 section h4{
     font-family: 'Roboto Black', sans-serif;
     color: #f6f1d1;
+}
+
+#mat{
+    background-color: #28afb0;
 }
 
 .materie {
