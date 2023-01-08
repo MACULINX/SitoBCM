@@ -33,7 +33,7 @@ nav{
 }
 
 body{
-    background-color: #19647E;
+    background-color: #40798c;
     margin: 0%;
 }
 
@@ -94,9 +94,9 @@ article{
 footer{
     position: absolute;
     width: 100%;
-    height: 100px;
+    height: auto;
     background-color: #37392e;
-    
+    color: white;
 }
 
 footer h3{
@@ -105,7 +105,7 @@ footer h3{
 }
 
 section{
-    height: auto;
+    height: 300px;
     width: 100%;
     background-color: #0b2027;
 }
@@ -125,11 +125,17 @@ section h4{
 
 .cards1{
     background-color: #28afb0;
-    height: auto;
-    width: 350px;
+    width: 30%;
     border-radius: 5px;
     
 }
+
+.cards2{
+    width: 20%;
+    border-radius: 5px;
+    
+}
+
 
 .cards1 h2{
     text-align: center;
