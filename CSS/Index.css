@@ -4,7 +4,7 @@ html, body {
 }
  
 header{
-    background-color: #37392e;
+    background-color: #2C2A4A;
     margin: 0%;
     padding: 0%;
     margin-top: 0%;
@@ -18,6 +18,7 @@ header{
 
 header h1{
     font-family: 'Lexend Deca', sans-serif;
+    color: white;
 }
 
 header ul{
@@ -25,7 +26,7 @@ header ul{
     gap: 26px;
     list-style-type: none;
     margin-right: 2rem; 
-    @import url('https://fonts.cdnfonts.com/css/roboto');
+    
 }
 
 nav{
@@ -95,7 +96,8 @@ footer{
     position: absolute;
     width: 100%;
     height: 100px;
-    background-color: #37392e;
+    background-color: #2C2A4A;
+    color: white;
     
 }
 
@@ -107,7 +109,7 @@ footer h3{
 section{
     height: auto;
     width: 100%;
-    background-color: #28afb0;
+    background-color: #4F518C;
 }
 
 section h1{
@@ -116,17 +118,17 @@ section h1{
 
 section h4{
     font-family: 'Roboto Black', sans-serif;
-    color: #f6f1d1;
+    color: #2C2A4A;
 }
 
 #mat{
-    background-color: #ffffff;
+    background-color: #4F518C;
 }
 
 .cards1{
-    background-color: #28afb0;
+    background-color: #7FDEFF;
     height: auto;
-    width: 350px;
+    width: 25%;
     border-radius: 5px;
     border: 3px solid #000000;
 }
@@ -138,7 +140,7 @@ section h4{
 }
 
 .materie {
-    background: #f6f1d1;
+    background-color: #2C2A4A;
     border: 1px solid #f6f1d1;
     border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
@@ -179,4 +181,8 @@ section h4{
 
 svg{
     height: 200px;
+}
+
+#benvenuto div{
+    align-content: center;
 }
