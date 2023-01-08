@@ -1,3 +1,8 @@
+html, body { 
+    max-width: 100%;
+    overflow-x: hidden; 
+}
+ 
 header{
     background-color: #37392e;
     margin: 0%;
@@ -81,7 +86,7 @@ article{
 }
 
 #footer, #push {
-    height: 125px;
+    height: 17px;
     clear: both;
 }
 
@@ -91,7 +96,7 @@ footer{
     width: 100%;
     height: 100px;
     background-color: #37392e;
-    margin-bottom: 0;
+    
 }
 
 footer h3{
@@ -115,15 +120,15 @@ section h4{
 }
 
 #mat{
-    background-color: #28afb0;
+    background-color: #ffffff;
 }
 
 .cards1{
-    background-color: #40798c;
+    background-color: #28afb0;
     height: auto;
     width: 350px;
     border-radius: 5px;
-    border: 3px solid #37392e;
+    border: 3px solid #000000;
 }
 
 .cards1 h2{
